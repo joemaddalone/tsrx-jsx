@@ -1,7 +1,6 @@
-// import './App.css';
 import { useState } from 'react';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { atomDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import { a11yDark as prismTheme } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 import asyncBoundariesTsrx from './tsrx/async-boundaries.md?raw';
 import basicsTsrx from './tsrx/basics.md?raw';
@@ -240,13 +239,13 @@ export default component App() {
       <div class="comparison">
         <div class="panel">
           <h2>"JSX"</h2>
-          <SyntaxHighlighter language="tsx" style={atomDark}>
+          <SyntaxHighlighter language="tsx" style={prismTheme}>
             {selected.jsx.replaceAll("```", "")}
           </SyntaxHighlighter>
         </div>
         <div class="panel">
           <h2>"TSRX"</h2>
-          <SyntaxHighlighter language="tsx" style={atomDark}>
+          <SyntaxHighlighter language="tsx" style={prismTheme}>
             {selected.tsrx.replaceAll("```", "")}
           </SyntaxHighlighter>
         </div>

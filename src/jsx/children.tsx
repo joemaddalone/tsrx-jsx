@@ -6,6 +6,7 @@ export default function Card({ children }) {
   );
 }
 
+
 function List({ children }) {
   return (
     <ul className="list">

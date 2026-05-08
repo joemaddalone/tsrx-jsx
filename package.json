@@ -7,11 +7,14 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tsrx/react": "^0.2.0",
     "@tsrx/vite-plugin-react": "^0.0.31",
+    "gh-pages": "^6.3.0",
     "install": "^0.13.0",
     "npm": "^11.14.1",
     "react": "^19.2.5",

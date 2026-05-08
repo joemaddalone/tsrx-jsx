@@ -1,11 +1,11 @@
 import { useRef } from 'react';
 
 export default function App() {
-  const inputRef = useRef(null);
+  const inputRef = useRef<HTMLInputElement>(null);
 
   const handleClick = () => {
     // Access the DOM node and call focus
-    inputRef.current.focus();
+    inputRef.current?.focus();
   };
 
   return (
