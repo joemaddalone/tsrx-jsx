@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-BE_tW6Ee.js";var t=e();function n({id:e}){return(0,t.jsxs)(t.Fragment,{children:[e?null:(()=>{throw Error(`User not found`)})(),(0,t.jsx)(`div`,{children:(0,t.jsx)(`h1`,{children:`User Profile: ${e}`})})]})}export{n as default};
