@@ -6,7 +6,6 @@ export default component App() {
   const value = '';
   const onChange = (v: string) => {};
 
-  <Input value={value} onChange={onChange} />
-
   <Input {value} {onChange} />
+
 }

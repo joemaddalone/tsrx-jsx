@@ -81,6 +81,10 @@ body {
 	padding-bottom: 0.5rem;
 }
 
+.panel.component h2 {
+	color: #000;
+}
+
 .react-syntax-highlighter-line-number {
 	color: #666;
 	user-select: none;
