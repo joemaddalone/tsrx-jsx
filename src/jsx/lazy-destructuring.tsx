@@ -2,7 +2,7 @@ export default function UserCard({ name, age }) {
   return (
     <div>
       <h2>{name}</h2>
-      <p>"Age: "{age}</p>
+      <p>Age: {age}</p>
     </div>
   );
 }

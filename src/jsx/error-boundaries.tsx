@@ -5,7 +5,7 @@ export default function SafeProfile({ userId }) {
   return (
     <ErrorBoundary fallback={
       <div className="error">
-        <p>"Something went wrong."</p>
+        <p>Something went wrong.</p>
       </div>
       }>
       <UserProfile id={userId} />

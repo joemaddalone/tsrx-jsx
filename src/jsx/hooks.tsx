@@ -18,7 +18,7 @@ export default function UserProfile({ user, posts }: { user: User; posts: Post[]
   const [tab, setTab] = useState('overview');
 
   if (!user) {
-    return <p>"Please sign in."</p>;
+    return <p>Please sign in.</p>;
   }
 
 
